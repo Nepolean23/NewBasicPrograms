@@ -1,6 +1,6 @@
 ﻿using BasicPrograms;
 
-Console.WriteLine("1.FlipcoinProgram,2.LeapYear,3.PowerOfTwo,4.HarmonicNumber,5.PrimeFactor,6.QuotientAndReminder,\n7.SwapTwoNumbers,8.EvenOrOddNumber,9.VowelOrConstant");
+Console.WriteLine("1.FlipcoinProgram,2.LeapYear,3.PowerOfTwo,4.HarmonicNumber,5.PrimeFactor,6.QuotientAndReminder,\n7.SwapTwoNumbers,8.EvenOrOddNumber,9.VowelOrConstant,10.LargestThreeNumbers");
 
 
 Console.WriteLine("Enter your option to view the program");
@@ -41,6 +41,10 @@ switch(option)
 
     case 9:
         VowelOrConstant.Checkingchar();
+        break;
+
+    case 10:
+        LargestThreeNumber.LargerNumbers();
         break;
 
 
