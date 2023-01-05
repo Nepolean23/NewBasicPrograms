@@ -1,6 +1,8 @@
 ﻿using BasicPrograms;
 
-Console.WriteLine("1.FlipcoinProgram,2.LeapYear,3.PowerOfTwo,4.HarmonicNumber,5.PrimeFactor,6.QuotientAndReminder");
+Console.WriteLine("1.FlipcoinProgram,2.LeapYear,3.PowerOfTwo,4.HarmonicNumber,5.PrimeFactor,6.QuotientAndReminder,\n7.SwapTwoNumbers");
+
+
 Console.WriteLine("Enter your option to view the program");
 int option=Convert.ToInt32(Console.ReadLine());
 switch(option)
@@ -27,6 +29,10 @@ switch(option)
 
     case 6:
         QuotientAndReminder.values();
+        break;
+
+    case 7:
+        SwapTwoNumbers.SwapingNumbers();
         break;
 
 
